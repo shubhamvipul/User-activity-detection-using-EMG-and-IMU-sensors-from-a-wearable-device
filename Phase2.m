@@ -2,10 +2,10 @@ clc
 close all
 format longg
 
-spoon_user9_emg = csvread('C:\Users\Simran Singh\Desktop\Data_Mining\MyoData\user28\spoon\EMG.txt');
-spoon_user9_imu = csvread('C:\Users\Simran Singh\Desktop\Data_Mining\MyoData\user28\spoon\IMU.txt');
+spoon_user9_emg = csvread('C:\Users\Shubham\Desktop\Data_Mining\MyoData\user28\spoon\EMG.txt');
+spoon_user9_imu = csvread('C:\Users\Shubham\Desktop\Data_Mining\MyoData\user28\spoon\IMU.txt');
 
-startend_user9 = csvread('C:\Users\Simran Singh\Desktop\Data_Mining\groundTruth\user28\spoon\timeframes.txt');
+startend_user9 = csvread('C:\Users\Shubham\Desktop\Data_Mining\groundTruth\user28\spoon\timeframes.txt');
 startend_user9_se = startend_user9( : ,(1:2));
 startend9 = int64(startend_user9_se * (5/3));
 
